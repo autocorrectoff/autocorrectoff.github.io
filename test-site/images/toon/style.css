@@ -1,0 +1,45 @@
+﻿body {
+    height: 900px;
+    background: repeating-radial-gradient(circle red, yellow 15%, red 20%, orange 20%);
+    background-repeat: no-repeat;
+}
+#porky{
+    animation-name: piggy1;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+img {
+    width: 2%;
+    height: 2%;
+    margin-left: 46%;
+    margin-top: 21%;
+    animation-name: piggy;
+    animation-duration: 6s;
+    animation-timing-function: ease-in;	
+    animation-iteration-count: infinite;
+    
+   
+}
+
+@keyframes piggy {
+    from {
+        transform: scale(1, 1);
+	
+    }
+
+    to {
+        transform: scale(26, 25.5);
+	
+    }
+}
+@keyframes piggy1 {
+    from {
+        
+	transform: rotate(0);
+    }
+
+    to {
+        
+	transform: rotate(360deg);
+    }
+}
