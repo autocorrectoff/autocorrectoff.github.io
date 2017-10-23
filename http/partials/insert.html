@@ -1,0 +1,6 @@
+<form name="insertEntry">
+    Title:<input type="text" ng-model="entry.title"><br>
+    Author:<input type="text" ng-model="entry.author"><br>
+    Synopsis:<br><textarea ng-model="entry.synopsis" rows="10"></textarea><br>
+    <button ng-click="postBook(entry, insertEntry)">Submit</button>
+</form>
