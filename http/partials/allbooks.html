@@ -1,9 +1,0 @@
-<h4>All books:</h4>
-<div ng-repeat="i in books">
-    <h3>{{i.title}}</h3>
-    <p>{{i.author}}</p>
-    <i>{{i.synopsis}}</i><br>
-    <button ng-click="update(i.title, i.author, i.synopsis, i.id)">Update this book</button>
-    <button ng-click="deleteBook(i.id)">Delete this book</button>
-    <hr>
-</div>
